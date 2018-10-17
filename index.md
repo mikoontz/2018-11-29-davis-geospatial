@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "lc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "University of California, Davis"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "1 Shields Avenue, Davis, California"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
@@ -46,10 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h4>Welcome to a 2-day workshop using </h4>
 
 <h2 id="general">General Information</h2>
 
@@ -70,7 +67,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %}
   AUDIENCE
 
-  Explain who your audience is.  (In particular, tell readers if the
+  This workshop is intended for students and researchers interested in learning to work with geospatial data. Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if page.carpentry == "swc" %}
@@ -276,6 +273,6 @@ and our administrator may contact you if we need any extra information.</h4>
 
 <p>
     To install the software we will use for this workshop, please follow the
-  instructions here: <a href=https://datacarpentry.org/geospatial-workshop/setup.html>https://datacarpentry.org/geospatial-workshop/setup.html</a>.
+  instructions here: <a href = "https://datacarpentry.org/geospatial-workshop/setup.html">https://datacarpentry.org/geospatial-workshop/setup.html</a>.
 </p>
 
