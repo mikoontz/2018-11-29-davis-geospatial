@@ -289,7 +289,7 @@ day1_am:
   Library Carpentry
   {% endif %}
   workshop,
-  please follow the instructions under "Option A" here: https://datacarpentry.org/geospatial-workshop/setup.html.
+  please follow the instructions under "Option A" here: <a href = "https://datacarpentry.org/geospatial-workshop/setup.html">https://datacarpentry.org/geospatial-workshop/setup.html</a>.
   
   In addition, you will need an up-to-date web browser.
 </p>
